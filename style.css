@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+h1 {
+    margin-top: 10px;
+    color: #333;
+    text-align: left;
+    align-content: start;
+    margin-left: 10px;
+}
+
+b {
+    margin-left: 10px;
+}
+
+
+h2 {
+    position: relative;
+    color: #333;
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+table{
+    border: 1px solid black;
+    border-collapse: separate;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+::placeholder{
+    color: white;
+}
+input[type=text]{
+    padding:2px;
+    border: 0px solid;
+    background-color: #1f8ac0;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+table{
+    border-collapse: collapse;
+    float: left;
+    margin-left: 10px;
+}
+.left-picture{
+    display: table-cell;
+    padding: 20px;
+}
+.right-text{
+    display: table-cell;
+    vertical-align: middle;
+}
+.pagination a{
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+}
+.pagination a.active{
+    background-color: dodgerblue;
+    color: white;
+
+}
+.pagination a.hover:not(.active){
+    background-color: #ddd;
+}
